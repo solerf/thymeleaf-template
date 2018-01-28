@@ -1,0 +1,8 @@
+Name: [(${obj.name})]
+
+Link: [(${obj.url})]
+
+Tags:
+[# th:each="tag : ${obj.tags}" ]
+    - [(${tag})]
+[/]
